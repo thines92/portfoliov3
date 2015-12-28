@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 .active {
-  color: red;
+  background-color: red;
 }
 .container {
   background-color: #f5f5f5;
