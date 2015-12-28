@@ -1,0 +1,228 @@
+body {
+  font-size: 16px;
+  font-family: "Lato";
+  color: #666666;
+  height: auto;
+  margin: 0;
+}
+.active {
+  color: red;
+}
+.container {
+  width: 65%;
+  margin: auto;
+  position: relative;
+  background-color: #f5f5f5;
+  height: auto;
+}
+.navigation {
+  height: 4.9em;
+  position: relative;
+  background-color: #202020;
+  width: 100%;
+  display: flex;
+}
+.brand {
+  width: 40%;
+}
+.brand p , h1 {
+  display: inline-block;
+  color: white;
+}
+.brand h1 {
+  position: relative;
+  font-size: 2em;
+  font-family: "Open Sans";
+  color: rgb(238, 243, 240);
+  font-weight: bold;
+  left: 1.19em;
+  top: .5em;
+  margin: 0;
+}
+.title-arrow {
+  position: absolute;
+  top: 3.3em;
+  left: 9.6em;
+}
+.brand p {
+  position: absolute;
+  top: 3.7em;
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: rgb(238, 243, 240);
+  left: 15.5em;
+}
+.nav {
+  width: 60%;
+}
+.nav ul {
+  margin: 0;
+}
+.nav ul li {
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: white;
+  position: relative;
+  padding: 0 2em 0 2em;
+  height: 77px;
+  line-height: 5.5em;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  position: relative;
+  background-image: url("../images/header-bg.png");
+  height: 19.625em /* 997px */;
+}
+.header-desc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 3.5em;
+}
+.header p {
+  font-size: 1.125em;
+  color: white;
+  margin: 0;
+}
+.header p:nth-child(2) {
+  font-size: 2em;
+  color: #fe8300;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+.body {
+  position: relative;
+  width: 85% /* 747.75px */;
+  margin: auto;
+  top: -3.5em;
+  background-color: white;
+  border-top: 3px solid #ff8400;
+}
+.top-border {
+  display: block;
+  position: relative;
+  margin-top: 2em;
+  border-top: 1px solid #eef3f0;
+  width: 95%;
+  left: 2.5%;
+}
+.section1 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+.section1 div {
+  position: relative;
+  width: 12em;
+}
+.section1 h1 {
+  position: relative;
+  font-size: 1.25em;
+  color: #666666;
+  top: -1em;
+}
+.section1 p {
+  position: relative;
+  top: -1em;
+}
+.view-more-btn , .view-work-btn {
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  background-color: rgb(32, 32, 32);
+  width: 7.5em;
+  height: 2.5em;
+  color: white;
+  font-size: .6875em;
+  text-decoration: none;
+  text-align: center;
+  line-height: 2.5em;
+}
+.section2 {
+  position: relative;
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+.my-work {
+  width: 25%;
+  margin-left: 2em;
+}
+.my-work-title {
+  position: relative;
+  font-size: 1.25em;
+  color: #666666;
+  top: -.75em;
+}
+.my-work-desc {
+  position: relative;
+  width: 12em;
+  top: -1.5em;
+}
+.projects {
+  width: 70%;
+}
+.slider {
+  width: 93.0438%;
+  height: 14.1875em;
+  background-color: #474646;
+  margin: auto;
+}
+.slider-images {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.slider-images img {
+  position: relative;
+  width: 29.7912%;
+  height: 8.9375em;
+  border-radius: 5px;
+  margin-top: 1.7em;
+}
+.slider-controls {
+  position: relative;
+}
+.current-slide , .next-slide {
+  position: relative;
+  top: -.5em;
+  left: .6em;
+}
+.left-slider-btn , .right-slider-btn {
+  position: relative;
+  margin-top: .5em;
+  right: -77%;
+}
+.left-slider-btn {
+  margin-right: .25em;
+}
+.footer {
+  background-color: #202020;
+  border-top: 3px solid #ff8400;
+  color: white;
+}
+.footer-body {
+  display: flex;
+  justify-content: space-around;
+}
+.social-media-title , .twitter-title , .contact-title {
+  text-decoration: underline;
+}
+.social-media-desc , .contact-email , .contact-phone {
+  font-weight: lighter;
+}
+.twitter-icon {
+  margin-left: .5em;
+}
+.footer-nav {
+  margin-left: 1.2em;
+  padding-bottom: .5em;
+}
