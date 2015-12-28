@@ -4,21 +4,22 @@
     <title>Portfolio</title>
     <meta name="viewport" content="width=device'width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="container">
 
-      <div class="navigation">
+      <div class="navigation row">
 
-        <div class="brand">
+        <div class="brand col-md-5 col-xs-10">
           <h1>Tyler Hines</h1>
           <img class="title-arrow" src="images/arrow.png" />
           <p>Web Developer</p>
         </div>
 
-        <div class="nav">
+        <div class="nav col-md-7 hidden-xs hidden-sm">
           <ul>
             <a href="#"><li class="nav-home active">Home</li></a>
             <a href="#"><li class="nav-about-me">About Me</li></a>
@@ -27,9 +28,21 @@
           </ul>
         </div>
 
+        <div class=" col-sm-2 hidden-md hidden-lg btn-group nav-dropdown">
+        	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    			Menu <span class="caret"></span>
+  				</button>
+        	<ul class="dropdown-menu dropdown-menu-right">
+        		<li>Home</li>
+        		<li>About Me</li>
+        		<li>Portfolio</li>
+        		<li>Contact</li>
+        	</ul>
+        </div>
+
       </div>
 
-      <div class="header">
+      <div class="header row">
 
         <div class="header-desc">
           <p>Hi there, I'm</p>
@@ -44,7 +57,7 @@
         <div class="top-border">
         </div>
 
-        <div class="section1">
+        <div class="section1 row">
 
           <div class="what-i-do">
             <img class="what-i-do-icon" src="images/what-i-do.png" />
@@ -73,7 +86,7 @@
         <div class="top-border">
         </div>
 
-        <div class="section2">
+        <div class="section2 row">
 
           <div class="my-work">
             <img class="my-work-icon" src="images/my-work.png" />
@@ -108,7 +121,7 @@
 
       </div>
 
-        <div class="footer">
+        <div class="footer row">
 
           <div class="footer-body">
 
