@@ -276,11 +276,6 @@ body {
   .left-slider-btn {
     margin-left: 71%;
   }
-  .footer div {
-    width: 80%;
-    display: block;
-    margin: auto;
-  }
 }
 
 /* Footer Area */
@@ -303,6 +298,10 @@ body {
 }
 .twitter-icon {
   margin-left: 1em;
+  margin: auto;
+}
+.contact-email-link, .contact-phone-link{
+  color: #ff8400;
 }
 .footer-nav p {
   margin-left: 2em;
@@ -315,4 +314,21 @@ body {
 }
 .footer-nav a:hover {
   color: #ff8400;
+}
+
+/* Footer Media Queries */
+
+@media screen and (max-width: 768px) {
+  .footer div {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  .footer-body p {
+    text-align: center;
+  }
+  .icons {
+    margin: auto;
+    width: 3.9em !important;
+  }
 }
