@@ -223,6 +223,11 @@ body {
 .projects {
   margin-top: 4em;
 }
+.owl-carousel {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 5em;
+}
 .projects-bg {
   width: 80%;
   display: flex;
@@ -233,19 +238,19 @@ body {
 }
 .projectImg {
   position: relative;
-  box-shadow: 0 8px 6px -6px #777;
+  /*box-shadow: 0 8px 6px -6px #777;*/
   z-index: 1;
 }
 .openModal {
   text-decoration: none;
-}
+}/*
 .img-wrap {
   position: relative;
   background-color: black;
   display: inline-block;
   line-height: 0;
   z-index: 2;
-}
+}*/
 .modalImg:hover {
   opacity: .4;
 }

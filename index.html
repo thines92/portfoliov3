@@ -3,8 +3,8 @@
   <head>
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -98,17 +98,23 @@
 
           <div class="projects">
 
-          	<div class="projects-bg">
+        		<div class="owl-carousel owl-theme">
 
 							<div class="firstProject projectImg">
                 <a href="#" class="openModal" data-toggle="modal" data-target="#project-img-1">
-                	<div class="img-wrap"><img class="image1 modalImg" src="images/jbf.png" /></div>
+                	<!-- <div class="img-wrap"> --><img class="image1 modalImg" src="images/jbf.png" /><!-- </div> -->
                 </a>
 							</div>
 
 							<div class="secondProject projectImg">
                 <a href="#" class="openModal" data-toggle="modal" data-target="#project-img-2">
                 	<div class="img-wrap"><img class="image2 modalImg" src="images/firstport.png" /></div>
+                </a>
+							</div>
+
+							<div class="thirdProject projectImg">
+                <a href="#" class="openModal" data-toggle="modal" data-target="#project-img-3">
+                	<div class="img-wrap"><img class="image3 modalImg" src="images/mint.png" /></div>
                 </a>
 							</div>
 
@@ -219,6 +225,10 @@
 		  </div><!-- /.modal-dialog -->
 		</div><!-- /.modal -->
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/production.js"></script>
   </body>
 </html>
