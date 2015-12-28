@@ -203,17 +203,14 @@ body {
 .section2 {
   position: relative;
   margin-top: 3em;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 3em;
-  margin-bottom: 1em;
 }
 .section2 h1 {
   font-weight: bold;
 }
 .my-work {
-  width: 30%;
-  margin-left: 2em;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
 }
 .my-work-title {
   position: relative;
@@ -222,43 +219,16 @@ body {
 }
 .my-work-desc {
   position: relative;
-  width: 80%;
 }
 .projects {
-  width: 60%;
-}
-.slider {
-  width: 100%;
-  height: 14.1875em;
-  background-color: #474646;
-}
-.slider-images {
-  margin: auto;
   display: flex;
   justify-content: space-around;
 }
-.slider-images img {
+.projects img {
   position: relative;
-  width: 29.7912%;
-  height: 8.9375em;
-  border-radius: 5px;
   margin-top: 1.7em;
-}
-.slider-controls {
-  position: relative;
-}
-.current-slide , .next-slide {
-  position: relative;
-  left: .6em;
-}
-.left-slider-btn , .right-slider-btn {
-  margin-top: .5em;
-}
-.left-slider-btn {
-  margin-left: 76%;
-}
-.left-slider-btn {
-  margin-right: .25em;
+  box-shadow: 0 8px 6px -6px #777;
+  margin-bottom: 5em;
 }
 
 /* Section 2 Media Queries */
