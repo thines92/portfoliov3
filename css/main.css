@@ -86,14 +86,14 @@ body {
   position: relative;
   background-image: url("../images/header-bg.png");
   background-size: cover;
-  height: 19.625em /* 997px */;
+  height: 40em /* 997px */;
 }
 .header-desc {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  top: 3.5em;
+  top: 10em;
 }
 .header p {
   font-size: 1.125em;
@@ -130,14 +130,26 @@ body {
 
 .section1 {
   position: relative;
-  display: flex;
-  justify-content: space-around;
   margin-top: 3em;
   padding-bottom: 1em;
 }
-.section1 div {
+.what-i-do {
   position: relative;
-  width: 25%;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  margin-bottom: 5em;
+}
+.view-more-btn {
+  margin: auto;
+}
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.row2 div {
+  width: 40%;
 }
 .section1 h1 {
   position: relative;
