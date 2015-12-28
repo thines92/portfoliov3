@@ -221,14 +221,33 @@ body {
   position: relative;
 }
 .projects {
+  margin-top: 4em;
+}
+.projects-bg {
+  width: 80%;
   display: flex;
   justify-content: space-around;
+  margin-left: 10%;
+  border: 2px solid #ccc;
+  padding: 3em 0 3em 0;
 }
-.projects img {
+.projectImg {
   position: relative;
-  margin-top: 1.7em;
   box-shadow: 0 8px 6px -6px #777;
-  margin-bottom: 5em;
+  z-index: 1;
+}
+.openModal {
+  text-decoration: none;
+}
+.img-wrap {
+  position: relative;
+  background-color: black;
+  display: inline-block;
+  line-height: 0;
+  z-index: 2;
+}
+.modalImg:hover {
+  opacity: .4;
 }
 
 /* Section 2 Media Queries */

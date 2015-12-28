@@ -11,3 +11,7 @@ $("li").mouseleave(function() {
 	    $(this).css({"background-color":"inherit"});
 	}
 });
+
+// $(".modalImg").hover(function() {
+// 	$(this).css({"opacity":".5"})
+// });
