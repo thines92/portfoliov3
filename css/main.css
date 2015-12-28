@@ -203,6 +203,7 @@ body {
 .section2 {
   position: relative;
   margin-top: 3em;
+  margin-bottom: 2em;
 }
 .section2 h1 {
   font-weight: bold;
@@ -226,7 +227,8 @@ body {
 .owl-carousel {
   width: 75%;
   margin: auto;
-  margin-bottom: 5em;
+  margin-top: 3em;
+  padding-bottom: 6em;
 }
 .projects-bg {
   width: 80%;
