@@ -29,7 +29,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-	<body data-spy="scroll" data-target="#navbar" data-offset="51">
+	<body data-spy="scroll" data-target="#navbar" data-offset="80">
 
 		<header class="site-header">
 			<div class="navbar-wrapper">
@@ -47,12 +47,12 @@
 							<a href="/" class="navbar-brand"><h2>Tyler Hines<span>&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-check-circle-o"></i> Web Developer</span></h2></a>
 						</div><!-- navbar-header -->
 
-						<div class="navbar-collapse collapse">
-							<div id="navbar" class="nav navbar-nav navbar-right">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About Me</a></li>
-								<li><a href="#">Portfolio</a></li>
-								<li><a href="#">Contact</a></li>
+						<div id="navbar" class="navbar-collapse collapse">
+							<div class="nav navbar-nav navbar-right">
+								<li><a href="#hero">Home</a></li>
+								<li><a href="#about-me">About Me</a></li>
+								<li><a href="#my-work">Portfolio</a></li>
+								<li><a href="#contact">Contact</a></li>
 							</div><!-- nav -->
 						</div><!-- navbar-collapse -->
 
@@ -143,18 +143,18 @@
 
 						</div><!-- end col -->
 
-						<div id="projects" class="col-sm-6 col-sm-offset-3">
+						<div id="projects" class="col-sm-10 col-sm-offset-1">
 
 							<a class="col-xs-4" href="#" data-toggle="modal" data-target="#modal1">
 								<img src="assets/images/jbf.png" alt="Jared Barrows Foundation">
 							</a><!-- modal1 -->
 
 							<a class="col-xs-4" href="#" data-toggle="modal" data-target="#modal2">
-								<img src="assets/images/jbf.png" alt="Jared Barrows Foundation">
+								<img src="assets/images/b2w.png" alt="JCustom WordPress Site">
 							</a><!-- modal2 -->
 
 							<a class="col-xs-4" href="#" data-toggle="modal" data-target="#modal3">
-								<img src="assets/images/jbf.png" alt="Jared Barrows Foundation">
+								<img src="assets/images/weather.png" alt="Simple Weather Predictor App">
 							</a><!-- modal3 -->
 
 						</div><!-- projects -->
@@ -216,7 +216,7 @@
 			<div class="container">
 				<div class="row">
 
-					<div id="social-media" class="col-xs-5">
+					<div id="social-media" class="col-xs-12 col-sm-5">
 
 						<div class="section-header">
 							<h4>Social Media</h4>
@@ -230,7 +230,7 @@
 
 					</div><!-- social media -->
 
-					<div class="twitter col-xs-5 col-xs-offset-1">
+					<div class="twitter col-xs-12 col-sm-5 col-sm-offset-1">
 
 						<div class="section-header">									
 							<h4>My Twitter Feed</h4>
@@ -244,11 +244,6 @@
 						</script>
 
 					</div><!-- twitter -->
-
-			<!-- 	<div class="footer-nav">
-						<p><a class="footer-link" href="#header">Home</a>  /  <a class="footer-link" href="#content">About Me</a>  /
-							<a class="footer-link" href="#section2">Portfolio</a>  /  <a class="footer-link" href="#footer">Contact</a></p>
-					</div> -->
 					
 				</div><!-- row -->
 			</div><!-- container -->
@@ -266,7 +261,12 @@
 		        <h4 class="modal-title" id="myModalLabel">Jared Barrows Foundation</h4>
 		      </div>
 		      <div class="modal-body">
-		       	...
+		       	
+		       	<p>This was a website I designed and developed myself for the Jared Barrows Foundation charity. The site utilizes HTML, CSS, JavaScript
+		       	and some PHP.</p>
+
+		       	<p>Click <a href="http://www.jaredbarrowsfoundation.com">here</a> to visit the site.</p>
+
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -280,10 +280,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Modal title</h4>
+						<h4 class="modal-title">Custom WordPress Theme</h4>
 					</div>
 					<div class="modal-body">
-						<p>One fine body</p>
+						<p>This is a custom WordPress theme that I built for a class. It is completely customizable through WordPress.</p>
+
+						<p>Click <a href="http://www.tylersportfolio.com/b2w/wordpress/">here</a> to visit the site.</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -297,10 +299,12 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title">Modal title</h4>
+						<h4 class="modal-title">Weather Predictor</h4>
 					</div>
 					<div class="modal-body">
-						<p>One fine body</p>
+						<p>This is a simple, one page application I built that utilizes PHP to get weather conditions for a given city.</p>
+
+						<p>Click <a href="www.tylersportfolio.com/weather-app">here</a> to visit the site.</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
