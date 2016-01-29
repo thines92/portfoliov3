@@ -35,7 +35,7 @@
 			<div class="navbar-wrapper">
 
 				<div class="navbar navbar-inverse navbar-fixed-top">
-					<div class="container">
+					<div class="container col-sm-12">
 
 						<div class="navbar-header">
 							<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -265,7 +265,7 @@
 		       	<p>This was a website I designed and developed myself for the Jared Barrows Foundation charity. The site utilizes HTML, CSS, JavaScript
 		       	and some PHP.</p>
 
-		       	<p>Click <a href="http://www.jaredbarrowsfoundation.com">here</a> to visit the site.</p>
+		       	<p>Click <a href="http://www.tylersportfolio.com/jbf-new/">here</a> to visit the site.</p>
 
 		      </div>
 		      <div class="modal-footer">
@@ -304,7 +304,7 @@
 					<div class="modal-body">
 						<p>This is a simple, one page application I built that utilizes PHP to get weather conditions for a given city.</p>
 
-						<p>Click <a href="www.tylersportfolio.com/weather-app">here</a> to visit the site.</p>
+						<p>Click <a href="http://www.tylersportfolio.com/weather-app">here</a> to visit the site.</p>
 					</div>
 					<div class="modal-footer">
 						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
